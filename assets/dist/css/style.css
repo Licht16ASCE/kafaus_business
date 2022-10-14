@@ -48,8 +48,13 @@ ul li hr {
     transition: 1s;
 }
 
+.icons,
+.content {
+    display: inblock;
+}
+
 ul li .hover:hover hr {
-    width: 25px;
+    width: 35px;
 }
 
 ul li .hover:hover a {
